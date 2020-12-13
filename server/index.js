@@ -6,7 +6,8 @@ const config = require("./config/key");
 const path = require('path');
 const cors = require('cors');
 const mongoose = require("mongoose");
-const connect = mongoose.connect(config.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+
+const connect = mongoose.connect("mongodb+srv://oleh:testpassword@cluster0.w7x6n.mongodb.net/OnlineLibrary?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err));
 
