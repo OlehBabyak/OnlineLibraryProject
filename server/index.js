@@ -25,7 +25,7 @@ app.use('/api/books', require('./routes/books'));
 
 app.use('/client/public/uploads', express.static('client/public/uploads'));
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.heroku.com']
+const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://shrouded-journey-38552.heroku.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
@@ -48,11 +48,11 @@ if (process.env.NODE_ENV === "production") {
 
   // index.html for all page routes
   app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client/build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
 }
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 5000
 
 app.listen(port, () => {
   console.log(`Server Running at ${port}`)
