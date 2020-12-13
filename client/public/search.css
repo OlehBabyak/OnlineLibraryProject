@@ -1,0 +1,61 @@
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-1 input#search{
+    width: 500px;
+    height: 48px;
+    background: rgb(44, 46, 56);
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #fff;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 15px;
+    z-index: 1;
+    color: #fff;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+}
+
+.container-1 input#search:-ms-input-placeholder {
+    color: #fff;
+}
+
+.ant-collapse-item{
+    background-color: rgb(44, 46, 56);
+}
+
+.ant-collapse > .ant-collapse-item:last-child, .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header{
+    color: white;
+}
+
+.ant-collapse-item:last-child > .ant-collapse-content{
+    background-color: rgb(44, 46, 56);
+}
+
+.ant-collapse-content > .ant-collapse-content-box{
+    color: white;
+    font-size: 16px;
+}

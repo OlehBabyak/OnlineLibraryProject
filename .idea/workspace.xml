@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2cbaf25-c0ab-423b-8360-1f573677343b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1lPzVc6Ow8ye7vEjfc5iBgcfhqt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/views/FavoritePage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="F:\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OnlineLibraryProject\client\src\components\views\FavoritePage" />
+      <recent name="F:\OnlineLibraryProject\client\src\components\views\MovieDetail\Sections" />
+      <recent name="F:\OnlineLibraryProject\server\routes" />
+      <recent name="F:\OnlineLibraryProject\server\models" />
+      <recent name="F:\OnlineLibraryProject\client\src\components\views\BookPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OnlineLibraryProject\client\public" />
+      <recent name="F:\OnlineLibraryProject" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2cbaf25-c0ab-423b-8360-1f573677343b" name="Default Changelist" comment="" />
+      <created>1607513542749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607513542749</updated>
+      <workItem from="1607513550444" duration="1681000" />
+      <workItem from="1607523983644" duration="7000" />
+      <workItem from="1607524454081" duration="11689000" />
+      <workItem from="1607604544199" duration="17298000" />
+      <workItem from="1607698387353" duration="9573000" />
+      <workItem from="1607767095420" duration="12962000" />
+      <workItem from="1607782694525" duration="7634000" />
+      <workItem from="1607800996506" duration="850000" />
+      <workItem from="1607870923526" duration="16531000" />
+      <workItem from="1607888209436" duration="901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
