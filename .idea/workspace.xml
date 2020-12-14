@@ -5,44 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cbaf25-c0ab-423b-8360-1f573677343b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/EditBookPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/comment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607614671719_Aleksander_Puszkin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607620787273_Т._Г._Шевченко._Квітень_1859.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607699921137_Ohcls7SAY1PBJnMKDiwqjrjC99GdwsgSAbJapiin.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607701687384_Ohcls7SAY1PBJnMKDiwqjrjC99GdwsgSAbJapiin.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607701695451_Ohcls7SAY1PBJnMKDiwqjrjC99GdwsgSAbJapiin.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607704724887_51JfT0t+awL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607706237237_product_detailed_image_240974_48212.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607879224406_51JfT0t+awL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607879241277_51JfT0t+awL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607879295904_51JfT0t+awL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607882567046_1896a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607883081637_141026151520216032_f0_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607890121498_141026151520216032_f0_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607890130305_141026151520216032_f0_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/uploads/1607890138501_141026151520216032_f0_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AddAuthorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AddAuthorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AuthorCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AuthorCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AuthorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/AuthorPage/AuthorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/FavoritePage/FavoritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/FavoritePage/FavoritePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/LandingPage/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/BookDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/BookDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/BookImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/BookImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/BookInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/BookInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/Favorite.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/Favorite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/LikeDislikes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/LikeDislikes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/ReplyComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/ReplyComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/SingleComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/MovieDetail/Sections/SingleComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/views/RegisterPage/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/views/RegisterPage/RegisterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/addBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/addBook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/authors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +87,8 @@
       <workItem from="1607934047071" duration="6676000" />
       <workItem from="1607941312357" duration="6867000" />
       <workItem from="1607953182876" duration="9480000" />
-      <workItem from="1607963165232" duration="24000" />
+      <workItem from="1607963165232" duration="731000" />
+      <workItem from="1607963986264" duration="181000" />
     </task>
     <servers />
   </component>
