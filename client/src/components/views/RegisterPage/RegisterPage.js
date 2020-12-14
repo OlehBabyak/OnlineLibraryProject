@@ -104,7 +104,7 @@ function RegisterPage(props) {
             <Title level={2} style={{color:"#fff"}}>Реєстрація</Title>
             <Form style={{ minWidth: '375px' }} {...formItemLayout} onSubmit={handleSubmit} >
 
-              <Form.Item required label="Ім'я" style={{color:"#fff"}}>
+              <Form.Item required  style={{color:"#fff", marginLeft:"100px", width:"400px"}}>
                 <Input
                   id="name"
                   placeholder="Введіть ваше ім'я"
@@ -123,7 +123,7 @@ function RegisterPage(props) {
                 )}
               </Form.Item>
 
-              <Form.Item required label="Прізвище">
+              <Form.Item required style={{color:"#fff", marginLeft:"100px", width:"400px"}}>
                 <Input
                   id="lastName"
                   placeholder="Введіть ваше прізвище"
@@ -142,7 +142,7 @@ function RegisterPage(props) {
                 )}
               </Form.Item>
 
-              <Form.Item required label="Електрона адреса"  validateStatus={errors.email && touched.email ? "error" : 'success'}>
+              <Form.Item style={{color:"#fff", marginLeft:"100px", width:"400px"}} required validateStatus={errors.email && touched.email ? "error" : 'success'}>
                 <Input
                   id="email"
                   placeholder="Введіть вашу електрону адресу"
@@ -161,7 +161,7 @@ function RegisterPage(props) {
                 )}
               </Form.Item>
 
-              <Form.Item required label="Пароль"  validateStatus={errors.password && touched.password ? "error" : 'success'}>
+              <Form.Item style={{color:"#fff", marginLeft:"100px", width:"400px"}} required validateStatus={errors.password && touched.password ? "error" : 'success'}>
                 <Input
                   id="password"
                   placeholder="Введіть ваш пароль"
@@ -180,7 +180,7 @@ function RegisterPage(props) {
                 )}
               </Form.Item>
 
-              <Form.Item required label="Підтвердити пароль" hasFeedback>
+              <Form.Item style={{color:"#fff", marginLeft:"100px", width:"400px"}} required hasFeedback>
                 <Input
                   id="confirmPassword"
                   placeholder="Підтвердіть ваш пароль"

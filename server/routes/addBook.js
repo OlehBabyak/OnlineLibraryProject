@@ -26,6 +26,19 @@ router.post("/saveBook", auth, (req, res) => {
     })
 });
 
+router.post("/editBook", auth, (req, res) => {
+
+    const book = new Book(req.body)
+    let options = {new: true};
+
+
+    Book.findByIdAndUpdate(book._id, book, options)
+        .exec((err, result) => {
+            if (err) return res.json({ success: false, err })
+            return res.status(200).json({ success: true, result })
+        })
+});
+
 router.post("/uploadImage", auth, (req, res) => {
 
     let storage = multer.diskStorage({

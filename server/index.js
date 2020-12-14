@@ -7,7 +7,7 @@ const path = require('path');
 const cors = require('cors');
 const mongoose = require("mongoose");
 
-const connect = mongoose.connect("mongodb+srv://oleh:testpassword@cluster0.w7x6n.mongodb.net/OnlineLibrary?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
+const connect = mongoose.connect("mongodb+srv://oleh:testpassword@cluster0.w7x6n.mongodb.net/OnlineLibrary?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err));
 
@@ -25,6 +25,8 @@ app.use('/api/authors', require('./routes/authors'));
 app.use('/api/books', require('./routes/books'));
 
 app.use('/client/public/uploads', express.static('client/public/uploads'));
+app.use('/uploads', express.static('uploads'));
+
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://shrouded-journey-38552.heroku.com']
 const corsOptions = {

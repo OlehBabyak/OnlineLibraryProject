@@ -3,7 +3,7 @@ import {Col} from 'antd';
 
 function AuthorCard({authorName, image, authorId, birth, death}) {
 
-    var options = {
+    let options = {
         year: 'numeric',
         month: 'numeric',
         day: 'numeric',

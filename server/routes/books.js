@@ -79,5 +79,14 @@ router.get("/bookById", (req, res) => {
         })
 });
 
+router.post("/removeBook", (req, res) => {
+
+    Book.findOneAndDelete({ _id: req.body.bookId})
+        .exec((err, doc) => {
+            if (err) return res.status(400).json({ success: false, err });
+            res.status(200).json({ success: true, doc })
+        })
+});
+
 
 module.exports = router;

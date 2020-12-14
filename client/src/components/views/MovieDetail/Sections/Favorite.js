@@ -76,7 +76,18 @@ function Favorite(props) {
 
     return (
         <>
-            <Button onClick={onClickFavorite} > {!Favorited ? "Зберегти книгу" : "Видалити книгу"} ( {FavoriteNumber} )</Button>
+            <Button style={{display: "inline-block",
+                backgroundColor:"rgb(44, 46, 56)",
+                color: "white",
+                fontWeight: "700",
+                textDecoration: "none",
+                userSelect: "none",
+                padding: "-0.5em 2em",
+                outline: "none",
+                border: "0.5px solid",
+                borderRadius: "15px",
+                transition: "0.2s",
+                cursor:"pointer"}} onClick={onClickFavorite} > {!Favorited ? "Зберегти книгу" : "Видалити з улюблених"} ( {FavoriteNumber} )</Button>
         </>
     )
 }

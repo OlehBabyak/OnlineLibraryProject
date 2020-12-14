@@ -10,12 +10,37 @@ function AuthorPage() {
 
     const [Authors, setAuthors] = useState([])
     const [Loading, setLoading] = useState(true)
+    const [PostSize, setPostSize] = useState()
+    const [Skip, setSkip] = useState(0)
+    const [Limit, setLimit] = useState(4)
+
+    useEffect(() => {
+        const variables = {
+            skip: Skip,
+            limit: Limit,
+        }
+        getAuthors(variables)
+        setLoading(false)
+    }, [])
 
     useEffect(() => {
         const endpoint = "/api/authors/getAuthors";
         getAuthors(endpoint)
         setLoading(false)
     }, [])
+
+    const onLoadMore = () => {
+        let skip = Skip + Limit;
+
+        const variables = {
+            skip: skip,
+            limit: Limit,
+            loadMore: true,
+        }
+
+        getAuthors(variables)
+        setSkip(skip)
+    }
 
     const getAuthors = (variables) => {
         Axios.post('/api/authors/getAuthors', variables)
@@ -26,6 +51,7 @@ function AuthorPage() {
                     } else {
                         setAuthors(response.data.authors)
                     }
+                    setPostSize(response.data.postSize)
                 } else {
                     alert('Помилка при завантаженні авторів')
                 }
@@ -58,6 +84,22 @@ function AuthorPage() {
                 <br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                 </div>
+                {PostSize >= Limit &&
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <button style={{display: "inline-block",
+                        backgroundColor:"rgb(44, 46, 56)",
+                        color: "white",
+                        fontWeight: "700",
+                        textDecoration: "none",
+                        userSelect: "none",
+                        padding: ".5em 2em",
+                        outline: "none",
+                        border: "0.5px solid",
+                        borderRadius: "15px",
+                        transition: "0.2s",
+                        cursor:"pointer"}} className="loadMore" onClick={onLoadMore}>Показати ще</button>
+                </div>
+                }
             </div>
 
         </div>

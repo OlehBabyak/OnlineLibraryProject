@@ -3,6 +3,7 @@ import { Comment, Avatar, Button, Input } from 'antd';
 import Axios from 'axios';
 import { useSelector } from 'react-redux';
 import LikeDislikes from './LikeDislikes';
+import './comment.css'
 const { TextArea } = Input;
 
 function SingleComment(props) {
@@ -43,12 +44,12 @@ function SingleComment(props) {
 
     const actions = [
         <LikeDislikes comment commentId={props.comment._id} userId={localStorage.getItem('userId')} />,
-        <span onClick={openReply} key="comment-basic-reply-to">Відповісти </span>
+        <span style={{color:"#fff", fontSize:"14px"}} onClick={openReply} key="comment-basic-reply-to">Відповісти </span>
     ]
 
     return (
         <div>
-            <Comment
+            <Comment style={{color:"#fff", fontSize:"16px"}}
                 actions={actions}
                 author={props.comment.writer.name}
                 avatar={
@@ -58,7 +59,7 @@ function SingleComment(props) {
                     />
                 }
                 content={
-                    <p>
+                    <p style={{fontSize:"16px", color:"#fff"}}>
                         {props.comment.content}
                     </p>
                 }
@@ -68,13 +69,31 @@ function SingleComment(props) {
             {OpenReply &&
                 <form style={{ display: 'flex' }} onSubmit={onSubmit}>
                     <TextArea
-                        style={{ width: '100%', borderRadius: '5px' }}
+                        style={{ width: '100%', borderRadius: '5px',height: "48px",
+                            background: "rgb(44, 46, 56)",
+                            fontSize: "16px",
+                            float: "left",
+                            color: "#fff",
+                            paddingTop: "10px",
+                            paddingLeft:"25px",
+                            webkitBorderRadius: "5px",
+                            mozBorderRadius: "5px", }}
                         onChange={handleChange}
                         value={CommentValue}
                         placeholder="Введіть текст!"
                     />
                     <br />
-                    <Button style={{ width: '20%', height: '52px' }} onClick={onSubmit}>Додати</Button>
+                    <Button style={{ width: '20%', height: '48px', display: "inline-block",
+                        backgroundColor:"rgb(44, 46, 56)",
+                        color: "white",
+                        fontWeight: "700",
+                        textDecoration: "none",
+                        userSelect: "none",
+                        padding: "-0.5em 2em",
+                        outline: "none",
+                        border: "0.5px solid",
+                        transition: "0.2s",
+                        cursor:"pointer" }} onClick={onSubmit}>Додати</Button>
                 </form>
             }
 

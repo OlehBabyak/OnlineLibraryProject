@@ -34,7 +34,7 @@ function AddAuthorPage(props) {
         event.preventDefault();
 
 
-        if (!NameValue || !BirthValue || !DeathValue || !Images) {
+        if (!NameValue || !BirthValue || !Images) {
             return alert('Заповніть всі поля!')
         }
 
@@ -69,7 +69,6 @@ function AddAuthorPage(props) {
 
                 {/* DropZone */}
                 <FileUpload refreshFunction={updateImages} />
-
                 <br />
                 <br />
                 <label style={{color:"#fff", fontSize:"20px"}}>ПІБ автора</label>

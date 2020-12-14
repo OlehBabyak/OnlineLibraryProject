@@ -39,7 +39,7 @@ function ReplyComment(props) {
         <div>
 
             {ChildCommentNumber > 0 &&
-                <p style={{ fontSize: '14px', margin: 0, color: 'gray', cursor:"pointer" }}
+                <p style={{ fontSize: '14px', margin: 0, color: 'white', cursor:"pointer" }}
                     onClick={handleChange} >
                     Переглянути {ChildCommentNumber} коментарь(-ів)
              </p>

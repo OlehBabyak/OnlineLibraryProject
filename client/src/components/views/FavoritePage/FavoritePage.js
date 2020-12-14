@@ -68,7 +68,7 @@ function FavoritePage() {
                     border: "0.5px solid",
                     borderRadius: "15px",
                     transition: "0.2s",
-                    cursor:"pointer"}} onClick={() => onClickDelete(favorite.bookId, favorite.userFrom)}> Видалити</button>
+                    cursor:"pointer"}} onClick={() => onClickDelete(favorite.bookId)}> Видалити</button>
             </td>
         </tr>
     })
@@ -88,7 +88,7 @@ function FavoritePage() {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <p>Будь ласка авторизуйтесь в ваш акаунт</p>
+                    <p style={{color:"white"}}>Будь ласка авторизуйтесь в ваш акаунт</p>
                     <a href="/login">Авторизуватись</a>
                 </div>
                 :

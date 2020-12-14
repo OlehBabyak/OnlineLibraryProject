@@ -43,7 +43,7 @@ function Comments(props) {
     return (
         <div>
             <br />
-            <Title level={3} > Поділіться своїми враженнями про "{props.bookTitle}" </Title>
+            <Title level={3} style={{color:"#fff"}}> Поділіться своїми враженнями про "{props.bookTitle}" </Title>
             <hr />
             {/* Comment Lists  */}
             {console.log(props.CommentLists)}
@@ -58,7 +58,7 @@ function Comments(props) {
             ))}
 
             {props.CommentLists && props.CommentLists.length === 0 &&
-                <div style={{ display: 'flex', justifyContent:'center', alignItems:'center', height:'200px'}} >
+                <div style={{ display: 'flex', justifyContent:'center', alignItems:'center', height:'200px', color:"#fff", fontSize:"16px"}} >
                     Стань першим, хто напише відгук про цю книгу!!!
                 </div>
             }
@@ -66,13 +66,32 @@ function Comments(props) {
             {/* Root Comment Form */}
             <form style={{ display: 'flex' }} onSubmit={onSubmit}>
                 <TextArea
-                    style={{ width: '100%', borderRadius: '5px' }}
+                    style={{ width: '100%', borderRadius: '5px',
+                        height: "48px",
+                        background: "rgb(44, 46, 56)",
+                        fontSize: "16px",
+                        float: "left",
+                        color: "#fff",
+                        paddingTop: "10px",
+                        paddingLeft:"25px",
+                        webkitBorderRadius: "5px",
+                        mozBorderRadius: "5px",}}
                     onChange={handleChange}
                     value={Comment}
                     placeholder="Введіть текст!"
                 />
                 <br />
-                <Button style={{ width: '20%', height: '52px' }} onClick={onSubmit}>Додати</Button>
+                <Button style={{ width: '20%', height: '48px', display: "inline-block",
+                    backgroundColor:"rgb(44, 46, 56)",
+                    color: "white",
+                    fontWeight: "700",
+                    textDecoration: "none",
+                    userSelect: "none",
+                    padding: "-0.5em 2em",
+                    outline: "none",
+                    border: "0.5px solid",
+                    transition: "0.2s",
+                    cursor:"pointer" }} onClick={onSubmit}>Додати</Button>
             </form>
 
         </div>

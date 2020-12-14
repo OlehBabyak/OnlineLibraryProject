@@ -6,7 +6,10 @@ import SearchFeature from "./Sections/SearchFeature"
 import CheckBox from "./Sections/CheckBox"
 import {useSelector} from "react-redux";
 import Axios from "axios";
+
 const { Title } = Typography;
+
+
 function LandingPage() {
     const user = useSelector(state => state.user)
 

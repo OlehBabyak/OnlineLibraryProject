@@ -11,6 +11,7 @@ import BookDetail from "./views/MovieDetail/BookDetail"
 import FavoritePage from "./views/FavoritePage/FavoritePage"
 import AddAuthorPage from "./views/AuthorPage/AddAuthorPage"
 import AddBookPage from "./views/BookPage/AddBookPage"
+import EditBookPage from "./views/MovieDetail/Sections/EditBookPage"
 import AuthorPage from "./views/AuthorPage/AuthorPage"
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/favorite" component={Auth(FavoritePage, null)} />
             <Route exact path="/addAuthor" component={Auth(AddAuthorPage, true)} />
             <Route exact path="/addBook" component={Auth(AddBookPage, true)} />
+            <Route exact path="/editBook/:bookId" component={Auth(EditBookPage, true)} />
             <Route exact path="/authors" component={Auth(AuthorPage, null)} />
         </Switch>
       </div>
